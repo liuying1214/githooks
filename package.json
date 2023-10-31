@@ -1,0 +1,30 @@
+{
+  "name": "commitizen-cz-changelog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 10"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commitizen": "^4.0.3",
+    "lodash.map": "^4.5.1",
+    "longest": "^2.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "optionalDependencies": {
+    "@commitlint/load": ">6.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./src/index.js"
+    }
+  }
+}
